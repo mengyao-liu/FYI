@@ -51,7 +51,7 @@ def show_wc(merchant):
         try:
             image = Image.open(merchant+'/wc/'+insname+'_followers_tweetstext.png')
             st.image(image, caption='Word cloud of '+insname+"'s followers in their recent 30 tweets")
-        except:
+        except Exception:
             with st.spinner("Generating the word cloud..."):
                 image = fig_wc.plot(merchant, insname)
                 st.pyplot(image, caption='Word cloud of '+insname+"'s followers in their recent 30 tweets")
