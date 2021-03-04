@@ -44,7 +44,7 @@ Since this is unsupervised learning, we do offer a way to check if the recommend
 ## 5. Future Plan
 
 ### 5.1 Fighting Limitation in Data Scraping and Computing Resource
-The biggest limitations so far lies are the data scraping rate from Twitter API and the computing resource. Ideally, we will retrieve the information of every follower of a specific influencer, and retrieve their timelines in a longer time frame. We will also be able to analyze and build up the influencer categories with a larger number of followers, expand the product category, and adding new categories. 
+The biggest limitations so far are the data scraping rate from Twitter API and the computing resource. Ideally, we will retrieve the information of every follower of a specific influencer, and retrieve their timelines in a longer time frame. We will also be able to analyze and build up the influencer categories with a larger number of followers, expand the product category, and adding new categories. 
 
 For the sentiment analysis, originally we planned to analyze the comments of those relevant tweets from a influencer. However, Twitter API does not have this attribute to retrieve the comments of a tweet. Thus we turn to the tweets that mentioned the influencer. At first, we tried filtering the mention tweets to only those which are replies to the relevant tweets of the influencer, but the one week limit results in too few comments to analyze. This is also something that can be solved given a higher data scraping rate.
 
