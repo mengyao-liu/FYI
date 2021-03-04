@@ -62,6 +62,6 @@ If there were ground truth of which influencers are successful and which influen
 ### 5.5 More Personalization
 We can add more product categories and further divide the current product categories, e.g., "books" into textbooks, magazines, literature, history, etc. We can add more dimensions to the influncer category, e.g., location. We can also add more categories in addition to the existing two (product, influencer type), e.g., customer type -- age, student or non-student, with or without kids, etc. The problem is that Twitter does not provide such information we want.
 
-### 5.6 Ohters
+### 5.6 Others
 We can try to eliminate the selection bias to identify influencers. We can also scrape and analyze data from other platforms, such as Instagram. 
 
