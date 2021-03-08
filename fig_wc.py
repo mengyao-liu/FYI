@@ -6,7 +6,6 @@ from PIL import Image
 from wordcloud import WordCloud
 import nltk
 nltk.download('stopwords')
-from nltk.corpus import stopwords
 import re
 
 def plot(merchant, ins):
@@ -29,7 +28,7 @@ def plot(merchant, ins):
 
 
 
-    stop_words = set(stopwords.words('english')+['https','RT','amp','u','one',"I'm"])
+    stop_words = set(nltk.corpus.stopwords.words('english')+['https','RT','amp','u','one',"I'm"])
     wordcloud = WordCloud(stopwords=stop_words, max_words=30, background_color="white", mask=transformed_bird_mask, contour_width=2, contour_color='lightblue',repeat=True).generate(text)
 
 
