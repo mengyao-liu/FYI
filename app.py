@@ -114,7 +114,14 @@ def main():
         page_turning_function = PAGES[sesh.curr_page]
         page_turning_function(sesh, loc[cat])
         
-            
+     
+    # documentation
+    link1 = '[About this app](https://github.com/mengyao-liu/FYI)'
+    st.markdown('##')
+    st.markdown(link1, unsafe_allow_html=True)
+    # author
+    link2 = '[About the author](https://www.linkedin.com/in/mengyao-cecily-liu/)'
+    st.markdown(link2, unsafe_allow_html=True)
     
 
 if __name__=='__main__':

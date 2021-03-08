@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 from wordcloud import WordCloud
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 import re
 
