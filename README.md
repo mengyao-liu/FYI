@@ -6,7 +6,7 @@
 ## 1. Overview
 *Find Your Influencer (FYI)* is a recommendation engine to recommend the right influencers to merchants based on Twitter data. The main tools used are Twitter API Standard v1.1 and the ```twint``` package for scraping the data, ```Regex```, the ```KeyBERT``` package, the ```nltk``` package for natural language processing, the ```altair``` package and the ```wordcloud``` package for visualization, and ```streamlit``` for building the app.
 
-The link to *FYI* is https://share.streamlit.io/mengyao-liu/fyi/app.py. Now only the influncer type with "100-1k" followers is available due to limit in computing resources. The source code analyzing the data is not uploaded here.
+The link to *FYI* is https://share.streamlit.io/mengyao-liu/fyi/app.py. Now only the influencer type with "100-1k" followers is available due to limit in computing resources. The source code analyzing the data is not uploaded here.
 
 ## 2. Data Collection
 
